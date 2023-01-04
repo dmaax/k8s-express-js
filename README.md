@@ -131,3 +131,11 @@ k apply -f k8s/service.yaml
 ```
 k apply -f k8s/service.yaml
 ```
+
+<br>
+
+## Delete a deployment/service
+```
+k delete -f k8s/deployment.yaml
+```
+*If you want to delete the service use service.yaml.*
