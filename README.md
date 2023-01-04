@@ -119,3 +119,15 @@ k apply -f k8s/deployment.yaml
 ```
 k apply -f k8s/deployment.yaml
 ```
+
+<br>
+
+## Create a service
+```
+k apply -f k8s/service.yaml
+```
+*If you want to modify the type (ClusterIP, NodePort, LoadBalancer), under "spec" change the field "type". Afer that apply the changes:*
+
+```
+k apply -f k8s/service.yaml
+```
