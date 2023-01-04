@@ -21,6 +21,18 @@
 <p> All instructions on creating a deployment (k8s) of a nodejs app.</p>
 <br>
 
+<p>There are 2 ways to create this cluster</p>
+
+1. [Imperative](#imperative-configuration)
+2. [Declarative](#declarative-configuration)
+
+<br>
+
+## *Imperative configuration*
+
+<br>
+
+
 ## Creating a deployment
 
 ```
@@ -87,3 +99,23 @@ k delete pod k8s-web-hello-6fb86f54fd-8ldcq
 minikube dashboard
 ```
 *This method may vary, this works if you're using minikube like me.*
+
+<br>
+
+## *Declarative configuration*
+
+<br>
+
+## Create a deployment
+```
+k apply -f k8s/deployment.yaml
+```
+
+<br>
+
+## Scaling up/down
+<p>Modify the deployment file, under "spec" add or modify a field called "replicas" and set a number. After that, apply the changes:</p>
+
+```
+k apply -f k8s/deployment.yaml
+```
