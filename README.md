@@ -12,8 +12,8 @@
   <a aria-label="Node version" href="https://nodejs.org/">
     <img alt="" src="https://img.shields.io/badge/v18.12.1-000.svg?style=for-the-badge&logo=nodedotjs&labelColor=000">
   </a>
-  <a aria-label="License" href="https://github.com/vercel/next.js/blob/canary/license.md">
-    <img alt="" src="https://img.shields.io/npm/l/express?style=for-the-badge&labelColor=000000">
+  <a aria-label="License" href="https://github.com/dmaax/k8s-express-js/blob/main/LICENSE">
+    <img alt="" src="https://img.shields.io/github/license/dmaax/k8s-express-js?style=for-the-badge&labelColor=000000">
   </a>
 </p>
 
